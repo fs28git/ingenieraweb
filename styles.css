@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #4a2c2a;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+#photoView .card {
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#photoView .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#photoView .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#photoView .card-body {
+    padding: 20px;
+}
+
+#photoView .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4a2c2a;
+    margin-bottom: 10px;
+}
+
+#photoView .card-text {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#photoView .btn-secondary {
+    background-color: #6f4e37;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+#photoView .btn-secondary:hover {
+    background-color: #4a2c2a;
+}
+
+#editForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#editForm label {
+    font-weight: bold;
+    color: #4a2c2a;
+}
+
+#editForm .btn-primary {
+    background-color: #6f4e37;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#editForm .btn-primary:hover {
+    background-color: #4a2c2a;
+}
